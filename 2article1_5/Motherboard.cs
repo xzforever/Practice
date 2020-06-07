@@ -8,6 +8,14 @@ namespace _2article1_5
 {
     class Motherboard
     {
-        public string socket;
+        public Motherboard()
+        {
+
+        }
+        public Motherboard(string socket)
+        {
+            socket = Socket;
+        }
+        public string Socket;
     }
 }

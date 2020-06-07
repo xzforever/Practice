@@ -8,7 +8,12 @@ namespace _2article1_5
 {
     class Printer
     {
-        public bool colorOrNot;
-        public int printSpeed;
+        public Printer(bool colorOrNot, int printSpeed)
+        {
+            colorOrNot = ColorOrNot;
+            printSpeed = PrintSpeed;
+        }
+        public bool ColorOrNot;
+        public int PrintSpeed;
     }
 }

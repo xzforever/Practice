@@ -8,7 +8,16 @@ namespace _2article1_5
 {
     class RAM
     {
-        public int modulsNum;
-        public int volume;
+        public RAM()
+        {
+
+        }
+        public RAM(int modulsNum, int volume)
+        {
+            modulsNum = ModulsNum;
+            volume = Volume;
+        }
+        public int ModulsNum;
+        public int Volume;
     }
 }

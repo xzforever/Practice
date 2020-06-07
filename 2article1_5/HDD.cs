@@ -8,8 +8,18 @@ namespace _2article1_5
 {
     class HDD
     {
-        public int volume;
-        public int recordingSpeed;
-        public int reedingSpeed;
+        public HDD()
+        {
+
+        }
+        public HDD(int volume, int recordingSpeed, int reedingSpeed)
+        {
+            volume = Volume;
+            recordingSpeed = RecordingSpeed;
+            reedingSpeed = RecordingSpeed;
+        }
+        public int Volume;
+        public int RecordingSpeed;
+        public int ReedingSpeed;
     }
 }

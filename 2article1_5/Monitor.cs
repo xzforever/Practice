@@ -8,7 +8,12 @@ namespace _2article1_5
 {
     class Monitor
     {
-        public int diagonal;
-        public int maxResolution;
+        public Monitor(int diagonal, int maxResolution)
+        {
+            diagonal = Diagonal;
+            maxResolution = MaxResolution;
+        }
+        public int Diagonal;
+        public int MaxResolution;
     }
 }

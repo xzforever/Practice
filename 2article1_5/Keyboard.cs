@@ -8,7 +8,12 @@ namespace _2article1_5
 {
     class Keyboard
     {
-        public int numOfButtons;
-        public bool passOrNot;
+        public Keyboard(int numOfButtons, bool passOrNot)
+        {
+            numOfButtons = NumOfButtons;
+            passOrNot = PassOrNot;
+        }
+        public int NumOfButtons;
+        public bool PassOrNot;
     }
 }

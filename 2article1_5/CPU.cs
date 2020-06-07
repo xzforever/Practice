@@ -8,7 +8,16 @@ namespace _2article1_5
 {
     class CPU
     {
-        public int coreNum;
-        public int frequency;
+        public CPU()
+        {
+
+        }
+        public CPU(int coreNum, int frequency)
+        {
+            CoreNum = coreNum;
+            Frequency = frequency;
+        }
+        public int CoreNum;
+        public int Frequency;
     }
 }

@@ -8,7 +8,12 @@ namespace _2article1_5
 {
     class Mouse
     {
-        public bool passOrNot;
-        public bool laserOrNot;
+        public Mouse(bool passOrNot, bool laserOrNot)
+        {
+            passOrNot = PassOrNot;
+            laserOrNot = LaserOrNot;
+        }
+        public bool PassOrNot;
+        public bool LaserOrNot;
     }
 }

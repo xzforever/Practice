@@ -8,6 +8,14 @@ namespace _2article1_5
 {
     class GraphicCard
     {
-        public int maxResolution;
+        public GraphicCard()
+        {
+
+        }
+        public GraphicCard(int maxResolution)
+        {
+            maxResolution = MaxResolution;
+        }
+        public int MaxResolution;
     }
 }

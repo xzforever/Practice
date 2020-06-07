@@ -8,6 +8,14 @@ namespace _2article1_5
 {
     class PowerSupply
     {
-        public int power;
+        public PowerSupply()
+        {
+
+        }
+        public PowerSupply(int power)
+        {
+            power = Power;
+        }
+        public int Power;
     }
 }
